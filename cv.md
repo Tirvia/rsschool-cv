@@ -76,3 +76,9 @@ function rowSumOddNumbers(n) {
     + Layout and adaptability
 
 ******************
+
+### **Languages**
+
+* English - Pre-Intermediate
+* Russian - Native
+* Czech - Upper-intermediate
