@@ -1,7 +1,7 @@
 # **Hanna Fedasenka**   
 #### Junior Frontend Developer
 
-![portrait] [width = 20%] (https://thumb.cloud.mail.ru/weblink/thumb/xw1/PAzU/Z7WLNrrUV)
+![portrait] (https://thumb.cloud.mail.ru/weblink/thumb/xw1/k4m2/4jCGJBSE4)
 
 *************
 
