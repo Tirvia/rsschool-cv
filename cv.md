@@ -60,3 +60,19 @@ function rowSumOddNumbers(n) {
 }
 ```
 **************
+
+### **Courses:**
+
+* Web designer: the explosive start
+    + Dive into Figma
+    + Prototyping in Figma
+    + Responsive UI/UX design
+* Javascript: dive
+    + Javascript basics
+    + Working with the DOM
+    + Practice with JavaScript
+* Web Layout Designer: Getting Started
+    + Basics of HTML and CSS
+    + Layout and adaptability
+
+******************
