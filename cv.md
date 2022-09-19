@@ -18,3 +18,12 @@
 [GitHub](https://github.com/Tirvia)     
            
 *****************
+
+### **About myself:**
+
+Programming has interested me since ancient times. I also had excellent drawing skills. This is the reason why I settled on Fronted development. I started my path from studying web design, and after layout and coding. In this work, I am attracted by both creativity and the need for constant improvement of skills.
+
+I am constantly learning something new and taking various training courses. I know that step by step I become an excellent specialist
+
+********************
+
