@@ -27,3 +27,13 @@ I am constantly learning something new and taking various training courses. I kn
 
 ********************
 
+### **Skills and Proficiency:**
+
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code
+* Figma
+
+************
+
