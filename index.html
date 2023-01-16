@@ -90,21 +90,24 @@
                 </div>
                 <p>DESCRIPTION:
                     Your task in order to complete this Kata is to write a function which formats a duration, given as a number of seconds, in a human-friendly way.The function must accept a non-negative integer. If it is zero, it just returns "now". Otherwise, the duration is expressed as a combination of years, days, hours, minutes and seconds.</p>
-                <code>
-                    function formatDuration (seconds) {<Br>
-                        &nbsp;var time = { year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1 },<Br>
-                        &nbsp;res = [];<Br>
-                        if (seconds === 0) return 'now';  <Br>
-                        for (var key in time) {<Br>
-                        &nbsp; if (seconds >= time[key]) {<Br>
-                        &nbsp;&nbsp;var val = Math.floor(seconds/time[key]);<Br>
-                        &nbsp;&nbsp;res.push(val += val > 1 ? ' ' + key + 's' : ' ' + key);<Br>
-                        &nbsp;&nbsp;seconds = seconds % time[key];<Br>
-                        &nbsp;}<Br>
-                        } <Br>
-                        return res.length > 1 ? res.join(', ').replace(/,([^,]*)$/,' and'+'$1') : res[0]<Br>
-                    };<Br>
-                </code>
+                <div class="code">
+                    <code>
+                        function formatDuration (seconds) {<Br>
+                            &nbsp;var time = { year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1 },<Br>
+                            &nbsp;res = [];<Br>
+                            if (seconds === 0) return 'now';  <Br>
+                            for (var key in time) {<Br>
+                            &nbsp; if (seconds >= time[key]) {<Br>
+                            &nbsp;&nbsp;var val = Math.floor(seconds/time[key]);<Br>
+                            &nbsp;&nbsp;res.push(val += val > 1 ? ' ' + key + 's' : ' ' + key);<Br>
+                            &nbsp;&nbsp;seconds = seconds % time[key];<Br>
+                            &nbsp;}<Br>
+                            } <Br>
+                            return res.length > 1 ? res.join(', ').replace(/,([^,]*)$/,' and'+'$1') : res[0]<Br>
+                        };<Br>
+                    </code>
+                </div>
+                    
             </div>
         </div>
         <div class="courses-languages">
@@ -153,9 +156,7 @@
                 <div class="footer">
                     <ul class="nav-list">
                         <li class="contacts-item"><a href="https://github.com/Tirvia" class="nav-link">GitHub</a></li>
-                        <li class="contacts-item">2022</li>
-                        <li class="contacts-item"><img src="./assets/img/rsschool.jpg" class="contacts-img" alt="rsschool"></li>
-                        <li class="contacts-item"><a href="https://rs.school/js/">Rs-school</a> </li>
+                        <li class="contacts-item">2023</li>                        
                     </ul>
                 </div>  
             </div>

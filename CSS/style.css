@@ -31,7 +31,7 @@ html {
     align-items: center;
 }
 .nav-item a {
-    color: #257e60;
+    color: #09077e;
     text-decoration: none;  
     transition: color 0.5s;
 }
@@ -72,10 +72,10 @@ main{
     transition: color 0.5s;
 }
 .contacts-item a:hover {
-    color: #14e3f1;
+    color: #0cacb8;
 }
 span.span:hover{
-    color: #14e3f1; 
+    color: #1474f1; 
     transition: .3s;
 }
 .contacts-list{
@@ -89,13 +89,22 @@ span.span:hover{
     list-style: none;
 }
 .skills-item:hover{
-    color: #14e3f1; 
+    color: #881d92; 
+    cursor: pointer;
+}
+.code{
+    background-color: #9ca9f8;
+    max-width: max-content;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #04032bb2 ;
 }
 .courses-span{
-    color: #14e3f1; 
+    color: #881d92; 
+    cursor: pointer;
 }
 .courses-span:hover{
-    color: #9ca9f8; 
+    color: #04035a; 
 }
 .courses-languages{
     display: flex;
