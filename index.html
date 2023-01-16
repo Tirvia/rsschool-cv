@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="icon" href="./assets/img/icon.ico">
+    <title>CV</title>    
+</head>
+<body>
+    <header>
+        <div class="container">            
+            <div class="header-nav">
+                <nav class="nav">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                      <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                      <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                      <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                      <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>                
+            </div>                      
+        </div>              
+    </header>
+    <main>
+        <div class="container">
+            <div class="section" id="profile">
+                <div class="profile">
+                    <div class="section-title">
+                        <h1>Hanna Fedasenka</h1>
+                        <h4>Junior Frontend Developer</h4>
+                    </div>
+                    <div class="section-image">
+                        <img src="./assets/img/image2.jpg" alt="photo_Ann">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section" id="contacts">
+                <div class="section-title">
+                    <h2>Contact information:</h2>
+                </div>
+                <div class="contacts">
+                    <ul class="contacts-list">
+                        <li class="contacts-item"><span class="span">   Phone:</span> +37544-7-44-46-44</li>
+                        <li class="contacts-item"><span class="span">   E-mail:</span>fedoska_ann@mail.ru</li>
+                        <li class="contacts-item"><span class="span">   Telegram:</span> @life_is_ann</li>
+                        <li class="contacts-item"><a href="https://www.linkedin.com/in/hanna-fedasenka-792570248/" class="nav-link">LinkedIn</a></li>
+                        <li class="contacts-item"><a href="https://github.com/Tirvia" class="nav-link">GitHub</a></li>                            
+                    </ul>
+                </div>  
+            </div>
+        </div>
+        <div class="container">
+            <div class="section" id="summary">
+                <div class="section-title">
+                    <h2>About myself:</h2>
+                </div>
+                <p>Programming has interested me since ancient times. I also had excellent drawing skills. This is the reason why I settled on Fronted development. I started my path from studying web design, and after layout and coding. In this work, I am attracted by both creativity and the need for constant improvement of skills.</p>
+                <p>I am constantly learning something new and taking various training courses. I know that step by step I become an excellent specialist</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="section" id="skills">
+                <div class="section-title">
+                    <h2>Skills and Proficiency:</h2>
+                </div>
+                <div class="skills">
+                    <ul class="skills-list">
+                      <li class="skills-item">HTML</li>
+                      <li class="skills-item">CSS</li>
+                      <li class="skills-item">JavaScript</li>
+                      <li class="skills-item">GitHub</li>
+                      <li class="skills-item">VS Code</li>
+                      <li class="skills-item">Figma</li>                      
+                    </ul>
+                </div> 
+            </div>
+        </div>
+        <div class="container">
+            <div class="section" id="code">
+                <div class="section-title">
+                    <h2>Code example:</h2>
+                </div>
+                <p>DESCRIPTION:
+                    Your task in order to complete this Kata is to write a function which formats a duration, given as a number of seconds, in a human-friendly way.The function must accept a non-negative integer. If it is zero, it just returns "now". Otherwise, the duration is expressed as a combination of years, days, hours, minutes and seconds.</p>
+                <div class="code">
+                    <code>
+                        function formatDuration (seconds) {<Br>
+                            &nbsp;var time = { year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1 },<Br>
+                            &nbsp;res = [];<Br>
+                            if (seconds === 0) return 'now';  <Br>
+                            for (var key in time) {<Br>
+                            &nbsp; if (seconds >= time[key]) {<Br>
+                            &nbsp;&nbsp;var val = Math.floor(seconds/time[key]);<Br>
+                            &nbsp;&nbsp;res.push(val += val > 1 ? ' ' + key + 's' : ' ' + key);<Br>
+                            &nbsp;&nbsp;seconds = seconds % time[key];<Br>
+                            &nbsp;}<Br>
+                            } <Br>
+                            return res.length > 1 ? res.join(', ').replace(/,([^,]*)$/,' and'+'$1') : res[0]<Br>
+                        };<Br>
+                    </code>
+                </div>
+                    
+            </div>
+        </div>
+        <div class="courses-languages">
+            <div class="container">
+                <div class="section" id="courses">
+                    <div class="section-title">
+                        <h2>Courses:</h2>
+                    </div>
+                    <div class="courses">
+                        <ul class="courses-list"><span class="courses-span"> Web designer: the explosive start</span>
+                            <li class="courses-item"> Dive into Figma</li>
+                            <li class="courses-item"> Prototyping in Figma</li>
+                            <li class="courses-item"> Responsive UI/UX design</li>
+                        </ul>
+                        <ul class="courses-list"><span class="courses-span">Javascript: dive</span>
+                            <li class="courses-item"> Javascript basics</li>
+                            <li class="courses-item"> Working with the DOM</li>
+                            <li class="courses-item"> Practice with JavaScript</li>
+                        </ul>
+                        <ul class="courses-list"><span class="courses-span"> Web Layout Designer: Getting Started</span>
+                            <li class="courses-item"> Basics of HTML and CSS</li>
+                            <li class="courses-item"> Layout and adaptability</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+            <div class="container">
+                <div class="section" id="languages">
+                    <div class="section-title">
+                        <h2>Languages:</h2>
+                    </div>
+                    <div class="courses">
+                        <ul class="contacts-list">
+                            <li class="contacts-item"><span class="span">English: </span> Pre-Intermediate</li>
+                            <li class="contacts-item"><span class="span">Russian: </span>Native</li>
+                            <li class="contacts-item"><span class="span">Czech: </span> Upper-intermediate</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="section" >                
+                <div class="footer">
+                    <ul class="nav-list">
+                        <li class="contacts-item"><a href="https://github.com/Tirvia" class="nav-link">GitHub</a></li>
+                        <li class="contacts-item">2023</li>                        
+                    </ul>
+                </div>  
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

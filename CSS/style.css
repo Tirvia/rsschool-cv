@@ -1,0 +1,119 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgb(11,4,119);
+    background: linear-gradient(90deg, rgba(11,4,119,1) 0%, rgba(9,9,121,1) 2%, rgba(198,229,236,0.9051995798319328) 48%, rgba(255,255,255,1) 100%);
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+html {
+    scroll-behavior: smooth; 
+}
+.nav-list {
+    list-style: none;
+}
+.nav-link {
+    padding: 0 20px;
+    line-height: 30px;
+    transition: .3s;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item a {
+    color: #09077e;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+.nav-item a:hover {
+    color: #120538;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 15%;
+    margin-top: 25px;
+    
+}
+img{
+    border-radius: 150px;    
+    filter: drop-shadow(20px 20px 30px rgba(11,4,119,1));
+    width: 250px;
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #04032b;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+main{
+    margin: 0 60px;
+}
+.contacts-item a{
+    color: black;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+.contacts-item a:hover {
+    color: #0cacb8;
+}
+span.span:hover{
+    color: #1474f1; 
+    transition: .3s;
+}
+.contacts-list{
+    line-height: 1.7;
+}
+.skills-list{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10%;
+    list-style: none;
+}
+.skills-item:hover{
+    color: #881d92; 
+    cursor: pointer;
+}
+.code{
+    background-color: #9ca9f8;
+    max-width: max-content;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #04032bb2 ;
+}
+.courses-span{
+    color: #881d92; 
+    cursor: pointer;
+}
+.courses-span:hover{
+    color: #04035a; 
+}
+.courses-languages{
+    display: flex;
+    flex-direction: row;
+}
+.nav-list img{
+    width: 100px;
+    border-radius: 5px;
+}
+.footer .nav-list{
+    gap: 20px;
+}
