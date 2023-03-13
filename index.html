@@ -92,19 +92,19 @@
                     Your task in order to complete this Kata is to write a function which formats a duration, given as a number of seconds, in a human-friendly way.The function must accept a non-negative integer. If it is zero, it just returns "now". Otherwise, the duration is expressed as a combination of years, days, hours, minutes and seconds.</p>
                 <div class="code">
                     <code>
-                        function formatDuration (seconds) {<Br>
-                            &nbsp;var time = { year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1 },<Br>
-                            &nbsp;res = [];<Br>
-                            if (seconds === 0) return 'now';  <Br>
-                            for (var key in time) {<Br>
-                            &nbsp; if (seconds >= time[key]) {<Br>
-                            &nbsp;&nbsp;var val = Math.floor(seconds/time[key]);<Br>
-                            &nbsp;&nbsp;res.push(val += val > 1 ? ' ' + key + 's' : ' ' + key);<Br>
-                            &nbsp;&nbsp;seconds = seconds % time[key];<Br>
-                            &nbsp;}<Br>
-                            } <Br>
-                            return res.length > 1 ? res.join(', ').replace(/,([^,]*)$/,' and'+'$1') : res[0]<Br>
-                        };<Br>
+                        function formatDuration (seconds) {<br>
+                            &nbsp;var time = { year: 31536000, day: 86400, hour: 3600, minute: 60, second: 1 },<br>
+                            &nbsp;res = [];<br>
+                            if (seconds === 0) return 'now';  <br>
+                            for (var key in time) {<br>
+                            &nbsp; if (seconds >= time[key]) {<br>
+                            &nbsp;&nbsp;var val = Math.floor(seconds/time[key]);<br>
+                            &nbsp;&nbsp;res.push(val += val > 1 ? ' ' + key + 's' : ' ' + key);<br>
+                            &nbsp;&nbsp;seconds = seconds % time[key];<br>
+                            &nbsp;}<br>
+                            } <br>
+                            return res.length > 1 ? res.join(', ').replace(/,([^,]*)$/,' and'+'$1') : res[0]<br>
+                        };<br>
                     </code>
                 </div>
                     
